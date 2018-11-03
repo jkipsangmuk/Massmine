@@ -1,5 +1,0 @@
-
-# Fetch some data first
-#--output="Put any directory  of you choice"
-
-massmine -t twitter-search -c 100 -q -location=UG  -l en --date='2018-01-01 00:00:00''2018-12-00 00:00:00'--output=/home/sicp/Desktop/UgandaDataQuery.json
