@@ -1,1 +1,6 @@
-massmine -t twitter-search -c 100 -q 'Uganda Or uganda' -l en --date='2018-01-01 00:00:00''2018-12-00 00:00:00'
+#query based on the string Uganda or uganda
+# Fetch some data first
+massmine -t twitter-search -c 100 -q 'Uganda Or uganda' -l en --date='2018-01-01 00:00:00''2018-12-00 00:00:00'--output=mydata.json
+#query based on the location Uganda.
+# Fetch some data first
+massmine -t twitter-search -c 100 -q -location=UG  -l en --date='2018-01-01 00:00:00''2018-12-00 00:00:00'--output=UgandaDataQuery.json
